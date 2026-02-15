@@ -106,3 +106,42 @@ img {
     border-radius: 16px;
 
 }
+
+/* Message section box */
+.message-section {
+  margin-top: 25px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+}
+
+/* Form layout */
+#messageForm {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+/* Inputs */
+#messageForm input,
+#messageForm textarea {
+  padding: 8px;
+  border: 1px solid #aaa;
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+/* Button */
+#messageForm button {
+  padding: 8px;
+  background-color: darkblue;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* Status text */
+#status {
+  margin-top: 8px;
+  font-weight: bold;
+}
